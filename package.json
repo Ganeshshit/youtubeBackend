@@ -5,9 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "build": "echo 'No build steps required for this project'"
+    "build": "yarn"
   },
   "keywords": [],
   "author": "",
