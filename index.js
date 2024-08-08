@@ -4,7 +4,7 @@ import App from './src/app.js';
 
 
 dotenv.config({ path: './.env' })
-const MONGO_URI = process.env.MONGO_URI
+const MONGO_URI = process.env.MONGO_URI || 'mongodb + srv://gsb021:Ganesh@cluster0.77m69.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const PORT = process.env.PORT || 1000
 
 connectDB(MONGO_URI)
